@@ -3,7 +3,6 @@ import Navbar from './navBar'
 import Counters from './counters'
 
 class Asembler extends Component{
-    // For State Lifting Asembler(just a variable class name) is used. So it can share its state with all of its child components
     state={
         counters :[{id:1,value:10}],
         lastId:1
